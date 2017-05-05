@@ -2,6 +2,8 @@ class BoardController < ApplicationController
   def index
         @view_list = Post.all
   end
+  def new
+  end
   def write
     
      @email_write = params[:email]
